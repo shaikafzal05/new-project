@@ -1,0 +1,118 @@
+body{
+    font-family: 'baloo bhai','cursive', cursive;
+    color:white;
+    margin: 0;
+    padding: 0;
+    background: url(s.jpg) no-repeat;
+    background-size:cover;
+    background-position: top center;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    text-align: center;
+}
+.left img{
+    width: 50px;
+    filter: invert(100%); 
+}
+.left div{
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+.center{
+    display: block;
+    width: 38%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid rgb(180, 224, 20);  */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font: size 25px; 
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a:active {
+    text-decoration: underline;
+    color: yellow;
+
+}
+.btn{
+    font-family: 'baloo bhai','cursive',;
+    margin: 0px 9px;
+    background-color:black;
+    color:white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(181, 169, 169)
+}
+.container{
+    display: block;
+    width: 450px;
+    margin: 50px auto;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid rgb(77, 210, 203);
+    margin: 5px 2px;
+    padding: 10px 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+}  
+.form-group input{
+    font-family: 'baloo bhai','cursive',;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid rgb(10, 10, 10);
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 10px;
+    color:brown;
+} 
+.container h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:aquamarine;
+
+}
+.container button{
+    font-family: 'baloo bhai','cursive',;
+    text-align: center;
+    font-weight: normal;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid rgb(10, 10, 10);
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 10px;
+}
